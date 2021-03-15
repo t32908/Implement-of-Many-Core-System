@@ -116,9 +116,9 @@ void Gaussian_Blur(){
         }
 
       //truncate values smaller than zero and larger than 255
-      *(image_t + byte_per_pixel * (width * y + x) + 2) = min(max(int(factor * red + bias), 0), 255);
-      *(image_t + byte_per_pixel * (width * y + x) + 1) = min(max(int(factor * green + bias), 0), 255);
-      *(image_t + byte_per_pixel * (width * y + x) + 0) = min(max(int(factor * blue + bias), 0), 255);
+      *(image_t + byte_per_pixel * (width * y + x) + 2) = min(max(int(red), 0), 255);
+      *(image_t + byte_per_pixel * (width * y + x) + 1) = min(max(int(green), 0), 255);
+      *(image_t + byte_per_pixel * (width * y + x) + 0) = min(max(int(blue), 0), 255);
     }
 }
 
