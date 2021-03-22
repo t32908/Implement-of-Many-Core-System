@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+6ba8f56a9dfcff8d63241b4efcf42e42 CMakeFiles/run
+9a279c65ff84301bc74d207612fe529d lena_GB.bmp
