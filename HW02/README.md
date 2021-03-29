@@ -6,8 +6,6 @@ use Makefile to compile in 1
   
 use CMakelists to compile in 2  
   $ cd 2  
-  $ mkdir build  
   $ cd build  
-  $ cmake ..  
   $ make run  
   output file name is lena_GB.bmp  
