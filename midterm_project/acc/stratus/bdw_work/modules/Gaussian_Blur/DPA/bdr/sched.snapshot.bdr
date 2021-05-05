@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<snapshot>
+	<name>sched</name>
+	<array>
+		<name>filter_const</name>
+		<source_loc>991</source_loc>
+		<datatype>
+			<array>3</array>
+			<datatype>
+				<array>3</array>
+				<datatype W="9">sc_int</datatype>
+			</datatype>
+		</datatype>
+	</array>
+	<array>
+		<name>filter</name>
+		<source_loc>982</source_loc>
+		<datatype>
+			<array>3</array>
+			<datatype>
+				<array>3</array>
+				<datatype W="9">sc_int</datatype>
+			</datatype>
+		</datatype>
+	</array>
+	<array>
+		<name>rgb_buffer</name>
+		<source_loc>981</source_loc>
+		<datatype>
+			<array>3</array>
+			<datatype>
+				<array>258</array>
+				<datatype W="25">sc_int</datatype>
+			</datatype>
+		</datatype>
+	</array>
+	<port>
+		<name>i_clk</name>
+		<source_loc>970</source_loc>
+		<clock/>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_rst</name>
+		<source_loc>971</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_rgb_busy</name>
+		<source_loc>983</source_loc>
+		<direction>out</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_rgb_vld</name>
+		<source_loc>984</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>i_rgb_data</name>
+		<source_loc>985</source_loc>
+		<direction>in</direction>
+		<datatype W="25">sc_int</datatype>
+	</port>
+	<port>
+		<name>o_result_busy</name>
+		<source_loc>986</source_loc>
+		<direction>in</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>o_result_vld</name>
+		<source_loc>987</source_loc>
+		<direction>out</direction>
+		<datatype W="1">bool</datatype>
+	</port>
+	<port>
+		<name>o_result_data</name>
+		<source_loc>988</source_loc>
+		<direction>out</direction>
+		<datatype W="32">sc_int</datatype>
+	</port>
+	<ios>
+		<thread>do_filter</thread>
+		<port>
+			<name>o_result_m_stalling</name>
+			<source_loc>14766</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_next_trig_req</name>
+			<source_loc>14778</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_data</name>
+			<source_loc>985</source_loc>
+			<direction>in</direction>
+			<datatype W="25">sc_int</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_data_is_invalid</name>
+			<source_loc>14758</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_clk</name>
+			<source_loc>970</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>971</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_data</name>
+			<source_loc>988</source_loc>
+			<direction>out</direction>
+			<datatype W="32">sc_int</datatype>
+		</port>
+		<port>
+			<name>rgb_buffer_RW</name>
+			<source_loc>981</source_loc>
+			<direction>out</direction>
+			<datatype W="1">sc_uint</datatype>
+		</port>
+		<port>
+			<name>rgb_buffer_CE</name>
+			<source_loc>981</source_loc>
+			<direction>out</direction>
+			<datatype W="1">sc_uint</datatype>
+		</port>
+		<port>
+			<name>rgb_buffer_DIN</name>
+			<source_loc>0</source_loc>
+			<direction>out</direction>
+			<datatype W="25">sc_uint</datatype>
+		</port>
+		<port>
+			<name>rgb_buffer_in1</name>
+			<source_loc>0</source_loc>
+			<direction>out</direction>
+			<datatype W="10">sc_uint</datatype>
+		</port>
+		<port>
+			<name>filter_RW</name>
+			<source_loc>982</source_loc>
+			<direction>out</direction>
+			<datatype W="1">sc_uint</datatype>
+		</port>
+		<port>
+			<name>filter_CE</name>
+			<source_loc>982</source_loc>
+			<direction>out</direction>
+			<datatype W="1">sc_uint</datatype>
+		</port>
+		<port>
+			<name>filter_DIN</name>
+			<source_loc>2226</source_loc>
+			<direction>out</direction>
+			<datatype W="9">sc_uint</datatype>
+		</port>
+		<port>
+			<name>filter_in1</name>
+			<source_loc>0</source_loc>
+			<direction>out</direction>
+			<datatype W="4">sc_uint</datatype>
+		</port>
+		<port>
+			<name>filter_const_in1</name>
+			<source_loc>991</source_loc>
+			<direction>out</direction>
+			<datatype W="4">sc_uint</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_trig_req</name>
+			<source_loc>14749</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_stalling</name>
+			<source_loc>14748</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_busy_req_0</name>
+			<source_loc>14744</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_busy</thread>
+		<port>
+			<name>i_rgb_m_stall_reg_full</name>
+			<source_loc>14761</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_vld_reg</name>
+			<source_loc>14780</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_unvalidated_req</name>
+			<source_loc>14781</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_busy_req_0</name>
+			<source_loc>14744</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_vld</name>
+			<source_loc>984</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_data_is_invalid</name>
+			<source_loc>14758</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_data_is_valid</name>
+			<source_loc>14759</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_busy</name>
+			<source_loc>983</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_busy_internal</name>
+			<source_loc>14783</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_unvalidated_req</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>970</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_vld</name>
+			<source_loc>984</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_busy_req_0</name>
+			<source_loc>14744</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>971</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_unvalidated_req</name>
+			<source_loc>14781</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_stall_reg_full</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>970</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_stalling</name>
+			<source_loc>14748</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_data_is_valid</name>
+			<source_loc>14759</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>971</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_stall_reg_full</name>
+			<source_loc>14761</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_do_reg_vld</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>970</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_vld</name>
+			<source_loc>984</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_busy_internal</name>
+			<source_loc>14783</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>971</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rgb_m_vld_reg</name>
+			<source_loc>14780</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_vld</thread>
+		<port>
+			<name>o_result_m_req_active_s</name>
+			<source_loc>14799</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_unacked_req</name>
+			<source_loc>14800</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_vld</name>
+			<source_loc>987</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_unacked_req</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>970</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_stalling</name>
+			<source_loc>14766</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>971</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_unacked_req</name>
+			<source_loc>14800</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_stalling</thread>
+		<port>
+			<name>o_result_busy</name>
+			<source_loc>986</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_vld</name>
+			<source_loc>987</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_stalling</name>
+			<source_loc>14766</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_active</thread>
+		<port>
+			<name>o_result_m_req_m_prev_trig_req</name>
+			<source_loc>14816</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_trig_req</name>
+			<source_loc>14749</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_active_s</name>
+			<source_loc>14799</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_prev_trig_reg</thread>
+		<port>
+			<name>i_clk</name>
+			<source_loc>970</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_trig_req</name>
+			<source_loc>14749</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>i_rst</name>
+			<source_loc>971</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_prev_trig_req</name>
+			<source_loc>14816</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+	<ios>
+		<thread>gen_next_trig_reg</thread>
+		<port>
+			<name>o_result_m_req_m_trig_req</name>
+			<source_loc>14749</source_loc>
+			<direction>in</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+		<port>
+			<name>o_result_m_req_m_next_trig_req</name>
+			<source_loc>14778</source_loc>
+			<direction>out</direction>
+			<datatype W="1">bool</datatype>
+		</port>
+	</ios>
+</snapshot>

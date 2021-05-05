@@ -1,0 +1,1133 @@
+ Starting Stratus DPOpt (Linux)
+  Time: May 06, 2021. 05:57:27
+  Host: ws32
+  User: m109061641
+  Args: --dofile /usr/cadtool/cadence/STRATUS/cur/share/stratus/tcl/bdw_cmd_shell.tcl --locallogfile /dev/null -x bdw_server_start
+
+               Stratus DpOpt
+               =============
+              Version: 2019.1.01 
+
+  Copyright (c) 2014-2019 Cadence Design Systems.  All rights reserved worldwide.
+  
+  Warning: This computer program is protected by copyright law and 
+  international treaties.  Unauthorized reproduction, modification, 
+  or distribution of this program, or any portion of it, may result 
+  in severe civil and criminal penalties.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+  
+  Info: Script "/usr/cadtool/cadence/STRATUS/cur/share/stratus/tcl/bdw_cmd_shell.tcl" run successfully
+
+##########################################################################
+# Starting in server mode with port 34724
+#   client pid = 11403
+##########################################################################
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+WARNING: No library loaded, loading generic library. (CMDSHELL-13)
+WARNING: No directories in variable lib_path  (CMDSHELL-10)
+INFO: Reading LBF file '/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/libs/generic.lbf' and building datastructures (LBFPARSE-1)
+INFO: Reading LBF file '/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/libs/gencount.lbf' and building datastructures (LBFPARSE-1)
+INFO: Constructing composite cells (CMDSHELL-4)
+INFO: Library load complete (CMDSHELL-5)
+INFO: Instantiating implementation module "Gaussian_Blur_Div_11U_18_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Div_11U_18_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Div_11U_18_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Div_11U_18_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Div_11U_18_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Div_11U_18_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Div_11U_18_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Div_11U_18_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Div_11U_18_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Div_11U_18_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_R10_10Add3s9s9s9_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_R10_10Add3s9s9s9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_R10_10Add3s9s9s9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_R10_10Add3s9s9s9_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_R10_10Add3s9s9s9_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_R10_10Add3s9s9s9_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_R10_10Add3s9s9s9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_R10_10Add3s9s9s9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_R10_10Add3s9s9s9_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_R10_10Add3s9s9s9_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2Mul2s9u8s9_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2Mul2s9u8s9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2Mul2s9u8s9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2Mul2s9u8s9_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2Mul2s9u8s9_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2Mul2s9u8s9_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2Mul2s9u8s9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2Mul2s9u8s9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2Mul2s9u8s9_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2Mul2s9u8s9_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Lti3u2_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Lti3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Lti3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Lti3u2_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Lti3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Lti3u2_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Lti3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Lti3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Lti3u2_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Lti3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2i1u2_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2i1u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2i1u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2i1u2_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2i1u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2i1u2_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2i1u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2i1u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2i1u2_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2i1u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2u2Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2u2Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2u2Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2u2Mul2i3u2_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2u2Mul2i3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2u2Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2u2Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2u2Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2u2Mul2i3u2_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2u2Mul2i3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add3s9s9s9_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add3s9s9s9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add3s9s9s9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add3s9s9s9_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add3s9s9s9_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add3s9s9s9_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add3s9s9s9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add3s9s9s9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add3s9s9s9_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add3s9s9s9_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Mul2i3u2_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Mul2i3u2_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Mul2i3u2_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Mul2i3u2_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Mul2i3u2_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Mul2i3u2_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Mul2i3u2_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_AbsAdd3s9s9s9_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_AbsAdd3s9s9s9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_AbsAdd3s9s9s9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_AbsAdd3s9s9s9_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_AbsAdd3s9s9s9_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_AbsAdd3s9s9s9_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_AbsAdd3s9s9s9_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_AbsAdd3s9s9s9_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_AbsAdd3s9s9s9_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_AbsAdd3s9s9s9_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Div_11U_18_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Div_11U_18_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Div_11U_18_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Div_11U_18_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Div_11U_18_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Div_11U_18_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Div_11U_18_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Div_11U_18_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Div_11U_18_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Div_11U_18_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Div_11U_18_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Div_11U_18_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_R10_10Add3s9s9s9_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_R10_10Add3s9s9s9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_R10_10Add3s9s9s9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_R10_10Add3s9s9s9_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_R10_10Add3s9s9s9_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_R10_10Add3s9s9s9_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_R10_10Add3s9s9s9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_R10_10Add3s9s9s9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_R10_10Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_R10_10Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_R10_10Add3s9s9s9_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_R10_10Add3s9s9s9_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2Mul2s9u8s9_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2Mul2s9u8s9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2Mul2s9u8s9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2Mul2s9u8s9_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2Mul2s9u8s9_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2Mul2s9u8s9_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2Mul2s9u8s9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2Mul2s9u8s9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2Mul2s9u8s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2Mul2s9u8s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2Mul2s9u8s9_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2Mul2s9u8s9_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Lti3u2_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Lti3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Lti3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Lti3u2_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Lti3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Lti3u2_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Lti3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Lti3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Lti3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Lti3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Lti3u2_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Lti3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2i1u2_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2i1u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2i1u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2i1u2_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2i1u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2i1u2_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2i1u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2i1u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2i1u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2i1u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2i1u2_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2i1u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2u2Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2u2Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2u2Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2u2Mul2i3u2_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2u2Mul2i3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add2u2Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add2u2Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add2u2Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add2u2Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add2u2Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add2u2Mul2i3u2_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add2u2Mul2i3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add3s9s9s9_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add3s9s9s9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add3s9s9s9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add3s9s9s9_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add3s9s9s9_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Add3s9s9s9_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Add3s9s9s9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Add3s9s9s9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Add3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Add3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Add3s9s9s9_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Add3s9s9s9_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Mul2i3u2_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Mul2i3u2_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_Mul2i3u2_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_Mul2i3u2_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_Mul2i3u2_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_Mul2i3u2_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_Mul2i3u2_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_Mul2i3u2_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_Mul2i3u2_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_AbsAdd3s9s9s9_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_AbsAdd3s9s9s9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_AbsAdd3s9s9s9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_AbsAdd3s9s9s9_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_AbsAdd3s9s9s9_1.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_AbsAdd3s9s9s9_1" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_1.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_AbsAdd3s9s9s9_1" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_AbsAdd3s9s9s9_1" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_AbsAdd3s9s9s9_1.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_AbsAdd3s9s9s9_1" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_AbsAdd3s9s9s9_1 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_AbsAdd3s9s9s9_1.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_DECODE_4U_23_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_DECODE_4U_23_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_DECODE_4U_23_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_DECODE_4U_23_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_DECODE_4U_23_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_DECODE_4U_23_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_DECODE_4U_23_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_DECODE_4U_23_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_DECODE_4U_23_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_DECODE_4U_23_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_DECODE_4U_23_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_DECODE_4U_23_4.input.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+  Warning:  No Forte toolkit found. Please use the latest toolkit.
+INFO: Using installation at: /usr/cadtool/cadence/STRATUS/cur/tools.lnx86/cellmath/ (DPEAPI-3)
+INFO: Instantiating implementation module "Gaussian_Blur_DECODE_4U_23_4" (CMDSHELL-8)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_DECODE_4U_23_4.sdl(2,3): INFO: Running flattening on "Gaussian_Blur_DECODE_4U_23_4" (DPETRANS-23)
+  Design has no flip-flops to report.
+  Design has no RAMs to report.
+  Design has no latches to report.
+INFO: Function instance "Gaussian_Blur_DECODE_4U_23_4" is now selected. (CMDSHELL-12)
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_DECODE_4U_23_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_DECODE_4U_23_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Netlist model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_DECODE_4U_23_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_DECODE_4U_23_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Behavioural model
+  Info: use delimiter:true
+  Info: ----------------
+/home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/Gaussian_Blur_DECODE_4U_23_4.sdl(2,3): INFO: Changing names in the RTL operator graph of "Gaussian_Blur_DECODE_4U_23_4" (DPETRANS-42)
+  Info: CellMath Designer changed names report
+  Info: Hierarchical netlist model
+  Info: use delimiter:true
+  Info: ----------------
+  Writing Verilog Bvrl Model Gaussian_Blur_DECODE_4U_23_4 for output to /home/m109/m109061641/EE6470/mid2/unacc/stratus/bdw_work/modules/Gaussian_Blur/DPA/v_rtl/Gaussian_Blur_DECODE_4U_23_4.v
+  Warning: Unsupported STARC rule:S2.2.2.2
+  Warning: Unsupported STARC rule:S2.2.3.1
+  Warning: Unsupported STARC rule:S2.3.1.1
+  Write complete.
+  Removing all instances.
+

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<netlist>
+	<module_name>gen_fifo_data</module_name>
+	<signal>
+		<name>CAST_N46</name>
+		<source_loc>6201</source_loc>
+		<async/>
+	</signal>
+	<assign>
+		<name>drive_CAST_N46</name>
+		<lhs>
+			<name>CAST_N46</name>
+		</lhs>
+		<rhs>
+			<name>MUX_N47</name>
+		</rhs>
+	</assign>
+</netlist>

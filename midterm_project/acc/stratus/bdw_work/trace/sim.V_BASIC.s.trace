@@ -1,0 +1,81 @@
+Operating system Centos 7,
+ GCC 7.3.0,
+ and Cadence NC/IUS 15.20
+are a supported combination.
+irun(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+file: bdw_work/sims/top_V_BASIC.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/Gaussian_Blur_cosim.v
+	module worklib.Gaussian_Blur_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/Gaussian_Blur/BASIC/Gaussian_Blur_rtl.v
+	module worklib.Gaussian_Blur:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_RAM_774X25_3.v
+	module worklib.Gaussian_Blur_RAM_774X25_3:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_ROM_9X9_filter_const.v
+	module worklib.Gaussian_Blur_ROM_9X9_filter_const:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_RAM_9X9_2.v
+	module worklib.Gaussian_Blur_RAM_9X9_2:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: ................
+            $readmemh("bdw_work/modules/Gaussian_Blur/BASIC/Gaussian_Blur_ROM_9X9_filter_const_1.memh", filter_const);
+                                                                                                                   |
+ncelab: *W,MEMODR (./bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_ROM_9X9_filter_const.v,17|115): $readmem default memory order incompatible with IEEE1364.
+.... Done
+	Generating native compiled code:
+		worklib.Gaussian_Blur:v <0x3f6d27c2>
+			streams: 134, words: 135740
+		worklib.Gaussian_Blur_RAM_774X25_3:v <0x2c9e5d7a>
+			streams:   2, words:   809
+		worklib.Gaussian_Blur_RAM_9X9_2:v <0x001ee17c>
+			streams:   2, words:   839
+		worklib.Gaussian_Blur_ROM_9X9_filter_const:v <0x243c86f9>
+			streams:   3, words:   981
+		worklib.top:v <0x2c6102dd>
+			streams: 114, words: 98503
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 6       6
+		Registers:             193     193
+		Scalar wires:           24       -
+		Vectored wires:         54       -
+		Always blocks:          75      75
+		Initial blocks:          8       8
+		Cont. assignments:      47      62
+		Pseudo assignments:     13      13
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+
+        SystemC 2.3.1-Accellera --- Feb 14 2019 12:08:38
+        Copyright (c) 1996-2014 by all Contributors,
+        ALL RIGHTS RESERVED
+NOTE: Cadence Design Systems Hub Simulation Platform : version 19.12-s100
+
+Info: (I804) /IEEE_Std_1666/deprecated: deprecated constructor: sc_time(uint64,bool)
+pixel : 65536
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+Simulation stopped via $stop(1) at time 13813915100 PS + 0
+./bdw_work/sims/top_V_BASIC.v:63 		#100 $stop;
+ncsim> quit
+Total run time = 13813850 ns

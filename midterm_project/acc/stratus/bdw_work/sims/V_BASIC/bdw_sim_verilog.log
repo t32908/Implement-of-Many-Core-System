@@ -1,0 +1,96 @@
+irun(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s039: Started on May 06, 2021 at 05:30:27 CST
+irun
+	+nc64bit
+	+incdir+/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib
+	+incdir+bdw_work/wrappers
+	+access+rw
+	+loadpli1=/usr/cadtool/cadence/STRATUS/cur/tools.lnx86/stratus/lib/64bit/ncvlog_ssl:ssl_bootstrap
+	+ncinput+bdw_work/sims/V_BASIC/ncverilog.do
+	+nclibdirname+bdw_work/sims/V_BASIC
+	-f bdw_work/sims/V_BASIC/siminfo
+		bdw_work/sims/top_V_BASIC.v
+		bdw_work/wrappers/Gaussian_Blur_cosim.v
+		bdw_work/modules/Gaussian_Blur/BASIC/Gaussian_Blur_rtl.v
+		bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_RAM_774X25_3.v
+		bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_ROM_9X9_filter_const.v
+		bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_RAM_9X9_2.v
+	+libext+.v
+	+define+ioConfig
+	+define+BDW_RTL_Gaussian_Blur_BASIC
+	+nowarn+LIBNOU
+	+hubSetOption+libdef=bdw_work/sims/V_BASIC/sim_V_BASIC.so,argv=../lena_std_short.bmp%out.bmp
+	+hubSetOption+bdr=bdw_work/sims/V_BASIC/sim.bdr
+	-l bdw_work/sims/V_BASIC/bdw_sim_verilog.log
+
+   User defined plus("+") options:
+	+hubSetOption+libdef=bdw_work/sims/V_BASIC/sim_V_BASIC.so,argv=../lena_std_short.bmp%out.bmp
+	+hubSetOption+bdr=bdw_work/sims/V_BASIC/sim.bdr
+
+file: bdw_work/sims/top_V_BASIC.v
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: bdw_work/wrappers/Gaussian_Blur_cosim.v
+	module worklib.Gaussian_Blur_cosim:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/Gaussian_Blur/BASIC/Gaussian_Blur_rtl.v
+	module worklib.Gaussian_Blur:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_RAM_774X25_3.v
+	module worklib.Gaussian_Blur_RAM_774X25_3:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_ROM_9X9_filter_const.v
+	module worklib.Gaussian_Blur_ROM_9X9_filter_const:v
+		errors: 0, warnings: 0
+file: bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_RAM_9X9_2.v
+	module worklib.Gaussian_Blur_RAM_9X9_2:v
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory bdw_work/wrappers given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+*** Registering Hub PLI1.0 Interface***
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+	Building instance overlay tables: ................
+            $readmemh("bdw_work/modules/Gaussian_Blur/BASIC/Gaussian_Blur_ROM_9X9_filter_const_1.memh", filter_const);
+                                                                                                                   |
+ncelab: *W,MEMODR (./bdw_work/modules/Gaussian_Blur/BASIC/v_rtl/Gaussian_Blur_ROM_9X9_filter_const.v,17|115): $readmem default memory order incompatible with IEEE1364.
+.... Done
+	Generating native compiled code:
+		worklib.Gaussian_Blur:v <0x3f6d27c2>
+			streams: 134, words: 135740
+		worklib.Gaussian_Blur_RAM_774X25_3:v <0x2c9e5d7a>
+			streams:   2, words:   809
+		worklib.Gaussian_Blur_RAM_9X9_2:v <0x001ee17c>
+			streams:   2, words:   839
+		worklib.Gaussian_Blur_ROM_9X9_filter_const:v <0x243c86f9>
+			streams:   3, words:   981
+		worklib.top:v <0x2c6102dd>
+			streams: 114, words: 98503
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 6       6
+		Registers:             193     193
+		Scalar wires:           24       -
+		Vectored wires:         54       -
+		Always blocks:          75      75
+		Initial blocks:          8       8
+		Cont. assignments:      47      62
+		Pseudo assignments:     13      13
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+*** Registering Hub PLI1.0 Interface***
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> run
+NOTE: Cadence Design Systems Hub Simulation Platform : version 19.12-s100
+Simulation stopped via $stop(1) at time 13813915100 PS + 0
+./bdw_work/sims/top_V_BASIC.v:63 		#100 $stop;
+ncsim> quit
+TOOL:	irun(64)	15.20-s039: Exiting on May 06, 2021 at 05:31:31 CST  (total: 00:01:04)

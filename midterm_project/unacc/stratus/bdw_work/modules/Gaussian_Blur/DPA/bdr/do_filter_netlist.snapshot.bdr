@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<netlist>
+	<module_name>do_filter</module_name>
+	<signal>
+		<name>CAST_N573</name>
+		<source_loc>5707</source_loc>
+		<async/>
+	</signal>
+	<assign>
+		<name>drive_CAST_N573</name>
+		<lhs>
+			<name>CAST_N573</name>
+		</lhs>
+		<rhs>
+			<name>MUX_N574</name>
+		</rhs>
+	</assign>
+</netlist>
