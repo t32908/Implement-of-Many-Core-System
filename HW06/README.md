@@ -7,7 +7,7 @@ Second copy the folder of basic-gaussian to ~/riscv-vp/sw
 use CMakelists to compile in riscv-vp  
   $ cd riscv-vp/sw  
   $ cd basic-gaussian  
-  $ cd make  
+  $ make  
   $ make sim  
   
 warning : In Makefile the path of sim must modify 
